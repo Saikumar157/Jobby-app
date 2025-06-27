@@ -41,16 +41,16 @@ const Header = props => {
             </Link>
           </li>
           <li className="logout-btn-list-item-small">
+            // <button
+            //   type="button"
+            //   className="logout-button-sm"
+            //   onClick={onClickLogout}
+            //   aria-label="Logout"
+            // >
+            //   <FiLogOut className="nav-icon" />
+            // </button>
             <button
-              type="button"
-              className="logout-button-sm"
-              onClick={onClickLogout}
-              aria-label="Logout"
-            >
-              <FiLogOut className="nav-icon" />
-            </button>
-            <button
-              className="logout-btn"
+              className="logout"
               type="button"
               onClick={onClickLogout}
             >
